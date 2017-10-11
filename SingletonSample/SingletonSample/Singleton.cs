@@ -4,7 +4,7 @@ namespace SingletonSample
 {
     public class Singleton
     {
-        private static Singleton _singleton = new Singleton();
+        private static readonly Singleton _singleton = new Singleton();
 
         private Singleton()
         {
