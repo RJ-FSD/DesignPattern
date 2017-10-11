@@ -13,6 +13,7 @@ namespace Main
         // Main処理
         static void Main(string[] args)
         {
+
             if (args.Length != 2)
             {
                 //第1引数：アセンブリ名　第2引数：名前空間.クラス名
