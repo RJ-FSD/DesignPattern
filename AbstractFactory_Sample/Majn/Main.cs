@@ -22,6 +22,8 @@ namespace Main
                 Environment.Exit(0);
             }
 
+
+
             Factory AbstractFactory = Factory.GetFactory(args[0], args[1]);
             Link asahi = AbstractFactory.CreateLink("朝日新聞", "http://www.asashi.com/");
             Link yomiuri = AbstractFactory.CreateLink("読売新聞", "http://www.yomiuri.co.jp/");
