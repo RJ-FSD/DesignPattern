@@ -13,7 +13,7 @@ namespace AdapterPattern_Delegation
         {
             this.str = str;
         }
-        public void ShowWIthParen()
+        public void ShowWithParen()
         {
             Console.WriteLine($"({str})");
         }
