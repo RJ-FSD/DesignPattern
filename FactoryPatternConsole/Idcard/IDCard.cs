@@ -22,7 +22,7 @@ namespace Idcard
             Console.WriteLine(owner + "のカードを使います。");
         }
 
-        public String GetOwner()
+        public string GetOwner()
         {
             return owner;
         }
