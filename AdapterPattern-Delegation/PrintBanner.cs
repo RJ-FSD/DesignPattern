@@ -16,7 +16,7 @@ namespace AdapterPattern_Delegation
 
         public void PrintWeak()
         {
-            banner.ShowWIthParen();
+            banner.ShowWithParen();
         }
         public void PrintStrong()
         {
