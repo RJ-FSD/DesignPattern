@@ -7,8 +7,8 @@ namespace SingletonSample
         public static void Main(string[] args)
         {
             Console.WriteLine("Start");
-            Singleton obj1 = Singleton.GetInstance();
-            Singleton obj2 = Singleton.GetInstance();
+            var obj1 = Singleton.GetInstance();
+            var obj2 = Singleton.GetInstance();
 
             if (obj1 == obj2)
             {
