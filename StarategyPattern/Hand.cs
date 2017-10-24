@@ -14,22 +14,22 @@ public class Hand
         this.handvalue = handvalue;
 	}
 
-    public static Hand getHand(int handvalue) //get hand object from int value
+    public static Hand GetHand(int handvalue) //get hand object from int value
     {
         return hand[handvalue];
     }
 
-    public Boolean isStrongerThan(Hand h) //if this stronger than h return true
+    public Boolean IsStrongerThan(Hand h) //if this stronger than h return true
     {
-        return fight(h) == 1;
+        return Fight(h) == 1;
     }
 
-    public Boolean isWeakerThan(Hand h) //if this weaker than h return true
+    public Boolean IsWeakerThan(Hand h) //if this weaker than h return true
     {
-        return fight(h) == -1;
+        return Fight(h) == -1;
     }
 
-    private int fight(Hand h) //thie vs h
+    private int Fight(Hand h) //thie vs h
     {
         if (this == h) //if draw return 0
         {

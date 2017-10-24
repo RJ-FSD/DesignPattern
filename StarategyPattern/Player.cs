@@ -14,24 +14,24 @@ public class Player
         this.strategy = strategy;
 	}
 
-    public Hand nextHand()//ask strategy for next hand move
+    public Hand NextHand()//ask strategy for next hand move
     {
-        return strategy.nextHand();
+        return strategy.NextHand();
     }
 
-    public void win()//match result is win
+    public void Win()//match result is win
     {
-        strategy.study(true);
+        strategy.Study(true);
         wincount++;
         gamecount++;
     }
-    public void lose()//match result is lose
+    public void Lose()//match result is lose
     {
-        strategy.study(true);
+        strategy.Study(true);
         losecount++;
         gamecount++;
     }
-    public void even()//match result is draw
+    public void Even()//match result is draw
     {
         gamecount++;
     }

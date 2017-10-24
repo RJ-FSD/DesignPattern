@@ -15,9 +15,9 @@ public class ProbStrategy : Strategy
 	{
         rand = new Random(seed);
 	}
-    public Hand nextHand()
+    public Hand NextHand()
     {
-        int bet = rand.Next(getSum(currentHandValue));
+        int bet = rand.Next(GetSum(currentHandValue));
         int handvalue = 0;
         if (bet < history[currentHandValue][0])
         {
@@ -33,9 +33,9 @@ public class ProbStrategy : Strategy
         }
         prevHandValue = currentHandValue;
         currentHandValue = handvalue;
-        return Hand.getHand(handvalue);
+        return Hand.GetHand(handvalue);
     }
-    private int getSum(int hv)
+    private int GetSum(int hv)
     {
         int sum = 0;
         for(int i=0; i<3; i++)
@@ -44,7 +44,7 @@ public class ProbStrategy : Strategy
         }
         return sum;
     }
-    public void study(Boolean win)
+    public void Study(Boolean win)
     {
         if (win)
         {

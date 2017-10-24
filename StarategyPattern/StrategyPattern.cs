@@ -23,25 +23,25 @@ namespace StrategyPattern
             Player player2 = new Player("Hana", new ProbStrategy(seed2));
             for (int i = 0; i < 10000; i++)
             {
-                Hand nextHand1 = player1.nextHand();
-                Hand nextHand2 = player2.nextHand();
-                if (nextHand1.isStrongerThan(nextHand2))
+                Hand nextHand1 = player1.NextHand();
+                Hand nextHand2 = player2.NextHand();
+                if (nextHand1.IsStrongerThan(nextHand2))
                 {
                     Console.WriteLine("Winner:" + player1);
-                    player1.win();
-                    player2.lose();
+                    player1.Win();
+                    player2.Lose();
                 }
-                else if (nextHand2.isStrongerThan(nextHand1))
+                else if (nextHand2.IsStrongerThan(nextHand1))
                 {
                     Console.WriteLine("Winner:" + player2);
-                    player1.lose();
-                    player2.win();
+                    player1.Lose();
+                    player2.Win();
                 }
                 else
                 {
                     Console.WriteLine("Even...");
-                    player1.even();
-                    player2.even();
+                    player1.Even();
+                    player2.Even();
                 }
             }
             Console.WriteLine("Total result:");

@@ -2,6 +2,6 @@
 
 public interface Strategy
 {
-    Hand nextHand(); //decide next move
-    void study(Boolean win); //memorize previous move
+    Hand NextHand(); //decide next move
+    void Study(Boolean win); //memorize previous move
 }

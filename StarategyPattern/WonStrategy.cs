@@ -9,15 +9,15 @@ public class WonStrategy : Strategy //strategy that chooses next move which won 
 	{
         rand = new Random(seed);
 	}
-    public Hand nextHand()
+    public Hand NextHand()
     {
         if(!won)
         {
-            prevHand = Hand.getHand(rand.Next(3));
+            prevHand = Hand.GetHand(rand.Next(3));
         }
         return prevHand;
     }
-    public void study(Boolean win)
+    public void Study(Boolean win)
     {
         won = win;
     }
