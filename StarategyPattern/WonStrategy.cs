@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class WonStrategy : Strategy //strategy that chooses next move which won previously  
+public class WonStrategy : IStrategy //strategy that chooses next move which won previously  
 {
     private Random rand;
     private Boolean won = false;

@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class ProbStrategy : Strategy
+public class ProbStrategy : IStrategy
 {
     private Random rand;
     private int prevHandValue = 0;

@@ -3,12 +3,12 @@
 public class Player
 {
     private String name;
-    private Strategy strategy;
+    private IStrategy strategy;
     private int wincount;
     private int losecount;
     private int gamecount;
 
-	public Player(String name, Strategy strategy)//creates a player with choosen strategy
+	public Player(String name, IStrategy strategy)//creates a player with choosen strategy
 	{
         this.name = name;
         this.strategy = strategy;
