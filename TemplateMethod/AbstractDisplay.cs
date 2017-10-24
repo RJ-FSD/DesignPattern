@@ -12,7 +12,7 @@ namespace TempleteMethod
         public abstract void Print();
         public abstract void Close();
 
-        public void display()
+        public void Display()
         {
             Open();
             for(int i = 0; i < 5; i++)
