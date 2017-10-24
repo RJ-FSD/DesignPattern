@@ -37,6 +37,6 @@ public class Player
     }
     public override String ToString()
     {
-        return "[" + name + ":" + gamecount + "games, " + wincount + "win, " + losecount + "  lose" + "]";
+        return $"[{name}:{gamecount}games, {wincount}win, {losecount}lose]";
     }
 }
