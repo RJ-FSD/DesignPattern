@@ -2,10 +2,10 @@
 
 public class Hand
 {
-    public const int HANDVALUE_STONE = 0; //int value of stone
-    public const int HANDVALUE_SCISSORS = 1; // int value of scissors
-    public const int HANDVALUE_PAPER = 2; // int value of paper
-    public static Hand[] hand = new Hand[] { new Hand(HANDVALUE_STONE), new Hand(HANDVALUE_SCISSORS), new Hand(HANDVALUE_PAPER) }; //three hand moves objects
+    public const int HandValueStone = 0; //int value of stone
+    public const int HandValueScissors = 1; // int value of scissors
+    public const int HandValuePaper = 2; // int value of paper
+    public static Hand[] hand = new Hand[] { new Hand(HandValueStone), new Hand(HandValueScissors), new Hand(HandValuePaper) }; //three hand moves objects
     private static readonly String[] name = new String[] { "STONE", "SCISSORS", "PAPER" }; //hand string expression
 
     private int handvalue; //this hand move
