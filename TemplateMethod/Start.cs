@@ -15,9 +15,9 @@ namespace TempleteMethod
             AbstractDisplay stringDisplayOnce = new StringDisplay("こんにちは");
             AbstractDisplay stringDisplayTwice = new StringDisplay("こんばんわ");
 
-            charDisplay.display();
-            stringDisplayOnce.display();
-            stringDisplayTwice.display();
+            charDisplay.Display();
+            stringDisplayOnce.Display();
+            stringDisplayTwice.Display();
 
             Console.ReadLine();
         }
