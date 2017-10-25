@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Idcard", "Idcard\Idcard.csproj", "{1F6D7AD1-10B3-4E00-B6CD-A479FE51351D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDCard", "Idcard\IDCard.csproj", "{1F6D7AD1-10B3-4E00-B6CD-A479FE51351D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "Main\Main.csproj", "{D5206C9F-C33D-4A07-9AAF-F04D8BE2A1AD}"
 EndProject

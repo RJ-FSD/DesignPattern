@@ -54,9 +54,9 @@
       <Project>{803FEBD2-54D2-4008-B33A-46A57B150032}</Project>
       <Name>Framework</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Idcard\Idcard.csproj">
+    <ProjectReference Include="..\Idcard\IDCard.csproj">
       <Project>{1F6D7AD1-10B3-4E00-B6CD-A479FE51351D}</Project>
-      <Name>Idcard</Name>
+      <Name>IDCard</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

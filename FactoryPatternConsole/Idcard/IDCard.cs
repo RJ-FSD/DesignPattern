@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Framework;
 
-namespace Idcard
+namespace IDCard
 {
     public class IDCard : Product
     {
