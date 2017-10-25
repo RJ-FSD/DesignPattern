@@ -4,9 +4,9 @@
     {
         public Product Create(string owner)
         {
-            Product p = CreateProduct(owner);
-            RegisterProduct(p);
-            return p;
+            var product = CreateProduct(owner);
+            RegisterProduct(product);
+            return product;
         }
 
         protected abstract Product CreateProduct(string owner);
