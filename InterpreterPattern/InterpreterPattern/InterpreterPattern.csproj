@@ -42,19 +42,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Addition.cs" />
+    <Compile Include="CalcExpression.cs" />
+    <Compile Include="CalcMethod.cs" />
     <Compile Include="Constant.cs" />
-    <Compile Include="Division.cs" />
-    <Compile Include="ExpressionContext.cs" />
+    <Compile Include="Context.cs" />
     <Compile Include="IExpression.cs" />
-    <Compile Include="ListExpressionExtensions.cs" />
-    <Compile Include="Multiplication.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Subtraction.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="expressions.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
