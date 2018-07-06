@@ -4,7 +4,7 @@ namespace SingletonSample
 {
     public class Singleton
     {
-        private static readonly Singleton _singleton = new Singleton();
+        private static readonly Singleton SingletonInstance = new Singleton();
 
         private Singleton()
         {
@@ -13,7 +13,7 @@ namespace SingletonSample
 
         public static Singleton GetInstance()
         {
-            return _singleton;
+            return SingletonInstance;
         }
     }
 }
