@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Framework;
 
-namespace Idcard
+namespace IDCard
 {
     public class IDCard : Product
     {
@@ -22,7 +18,7 @@ namespace Idcard
             Console.WriteLine(owner + "のカードを使います。");
         }
 
-        public String GetOwner()
+        public string GetOwner()
         {
             return owner;
         }
